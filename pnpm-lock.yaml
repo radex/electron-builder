@@ -31,7 +31,7 @@ importers:
       markdown2html-pro: 1.0.6
       path-sort: 0.1.0
       prettier: 2.8.0
-      replace-in-file: 6.2.0
+      replace-in-file: 6.3.5
       source-map-support: 0.5.21
       ts-jsdoc: 3.2.2
       typescript: 4.8.4
@@ -61,7 +61,7 @@ importers:
       markdown2html-pro: 1.0.6
       path-sort: 0.1.0
       prettier: 2.8.0
-      replace-in-file: 6.2.0
+      replace-in-file: 6.3.5
       source-map-support: 0.5.21
       ts-jsdoc: 3.2.2_typescript@4.8.4
       typescript: 4.8.4
@@ -5802,7 +5802,7 @@ packages:
       ajv: 6.12.6
       crc: 3.8.0
       iconv-corefoundation: 1.1.7
-      plist: 3.0.5
+      plist: 3.0.6
       smart-buffer: 4.2.0
       verror: 1.10.1
     dev: false
@@ -9452,14 +9452,6 @@ packages:
     dependencies:
       semver-compare: 1.0.0
 
-  /plist/3.0.5:
-    resolution: {integrity: sha512-83vX4eYdQp3vP9SxuYgEM/G/pJQqLUz/V/xzPrzruLs7fz7jxGQ1msZ/mg1nwZxUSuOp4sb+/bEIbRrbzZRxDA==}
-    engines: {node: '>=6'}
-    dependencies:
-      base64-js: 1.5.1
-      xmlbuilder: 9.0.7
-    dev: false
-
   /plist/3.0.6:
     resolution: {integrity: sha512-WiIVYyrp8TD4w8yCvyeIr+lkmrGRd5u0VbRnU+tP/aRLxP/YadJUYOMZJ/6hIa3oUyVCsycXvtNRgd5XBJIbiA==}
     engines: {node: '>=6'}
@@ -9869,14 +9861,14 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
-  /replace-in-file/6.2.0:
-    resolution: {integrity: sha512-Im2AF9G/qgkYneOc9QwWwUS/efyyonTUBvzXS2VXuxPawE5yQIjT/e6x4CTijO0Quq48lfAujuo+S89RR2TP2Q==}
+  /replace-in-file/6.3.5:
+    resolution: {integrity: sha512-arB9d3ENdKva2fxRnSjwBEXfK1npgyci7ZZuwysgAp7ORjHSyxz6oqIjTEv8R0Ydl4Ll7uOAZXL4vbkhGIizCg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
-      glob: 7.2.0
-      yargs: 16.2.0
+      glob: 7.2.3
+      yargs: 17.6.2
     dev: true
 
   /require-directory/2.1.1:
@@ -11050,6 +11042,7 @@ packages:
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
+    requiresBuild: true
     dependencies:
       punycode: 2.1.1
 
@@ -11315,12 +11308,6 @@ packages:
   /xmlbuilder/15.1.1:
     resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
     engines: {node: '>=8.0'}
-    requiresBuild: true
-    dev: false
-
-  /xmlbuilder/9.0.7:
-    resolution: {integrity: sha512-7YXTQc3P2l9+0rjaUbLwMKRhtmwg1M1eDf6nag7urC7pIPYLD9W/jmzQ4ptRSUbodw5S0jfoGTflLemQibSpeQ==}
-    engines: {node: '>=4.0'}
     requiresBuild: true
     dev: false
 
