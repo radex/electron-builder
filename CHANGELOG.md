@@ -1,3 +1,12 @@
+# [](https://github.com/electron-userland/electron-builder/compare/v24.0.0-alpha.10...v) (2023-01-17)
+
+
+### Bug Fixes
+
+* add reject in handleError in Windows `verifySignature` function ([#7380](https://github.com/electron-userland/electron-builder/issues/7380)) ([7862e38](https://github.com/electron-userland/electron-builder/commit/7862e388a2049ccbe1e01a5624c6a8a5f2942d54))
+
+
+
 # [](https://github.com/electron-userland/electron-builder/compare/v24.0.0-alpha.9...v) (2023-01-10)
 
 
